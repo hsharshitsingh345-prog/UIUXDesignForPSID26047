@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --color-background: #FBF7F2;
+  --color-foreground: #2D2B28;
+  --color-card: #EFE5DA;
+  --color-card-foreground: #2D2B28;
+  --color-primary: #6E84A0;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #EFE5DA;
+  --color-secondary-foreground: #2D2B28;
+  --color-muted: #E8DDD3;
+  --color-muted-foreground: #7A6F66;
+  --color-accent: #C66F5B;
+  --color-accent-foreground: #ffffff;
+  --color-border: #DDD3C8;
+  --color-ring: #6E84A0;
+  --font-serif: 'Lora', Georgia, serif;
+  --font-sans: 'Source Sans 3', system-ui, sans-serif;
+  --radius: 10px;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-color: #FBF7F2;
+  color: #2D2B28;
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide scrollbar but keep scrolling */
+* {
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
