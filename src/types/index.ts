@@ -184,6 +184,7 @@ export interface PatientCase {
   allergyStatus?: 'none' | 'yes' | 'unspecified'
   investigations?: Array<{ test: string; value: string; date?: string; flag?: boolean }>
   ayushData?: AyushData
+  ayushAnswers?: Record<string, any>
   aiSummary?: AISummary
   redFlags?: RedFlagAlert[]
   documents?: DocumentTimelineItem[]

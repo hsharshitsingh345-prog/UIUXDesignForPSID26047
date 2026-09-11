@@ -475,12 +475,3 @@ export const AuditRepository = {
   }
 }
 
-export const UserRepository = {
-  getDemoUsers() {
-    return [
-      { id: 'doc-001', name: 'Dr. Anjali Rao (BAMS, MD)', role: 'physician', department: 'Ayurveda & Integrative Medicine' },
-      { id: 'nurse-001', name: 'Staff Nurse Sunita M.', role: 'nurse', department: 'OPD Triage Station 2' },
-      { id: 'admin-001', name: 'Central Records Officer', role: 'admin', department: 'Hospital EHR Central' }
-    ]
-  }
-}

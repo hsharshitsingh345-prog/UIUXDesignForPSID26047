@@ -1,6 +1,6 @@
 import { LanguageCode } from '../types'
 
-export const STRINGS: Record<LanguageCode, Record<string, string>> = {
+export const STRINGS: Record<string, Record<string, string>> = {
   en: {
     appName: 'MediKiosk',
     appSub: 'Multilingual OPD Patient Intake & Clinical Documentation Kiosk',

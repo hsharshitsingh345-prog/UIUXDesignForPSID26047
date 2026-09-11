@@ -1,4 +1,4 @@
-import { PatientCase, AuthSession, UserRole, RedFlagAlert } from '../types'
+import { PatientCase, AuthSession, UserRole, RedFlagAlert, MedicationRecord } from '../types'
 
 const API_BASE = 'http://localhost:5000/api'
 

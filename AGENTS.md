@@ -1,35 +1,31 @@
-# figma-make-app
+# ArogyaKiosk — SIH PSID 26047
 
-React + Vite + Tailwind CSS project running inside Figma Make.
+Multilingual OPD Patient Case-Taking & Clinical Documentation Kiosk for the Ministry of Ayush.
+Smart India Hackathon Problem Statement ID 26047.
 
-## Development Server
+## Architecture
 
-A Vite development server is **already running** on `$PORT` (default 8443). You don't need to start it manually.
-
-- Preview URL: The user can access the running app through the preview panel
-- Hot reload: Changes to source files are reflected immediately
+- **Frontend**: React 19, TypeScript 5.7, Tailwind CSS v4, Vite 8 (Port 5173).
+- **Backend**: Express 4, Google Gemini Vision OCR fallback pool, Lowdb/JSON atomic persistence, Red-flag safety engine (Port 5000).
 
 ## Project Structure
 
-This is the canonical project structure. Start with task-relevant files below. Only follow imports or inspect other files when required, when a documented path is missing, or when the repository contradicts this guide.
+- `src/main.tsx` — React entrypoint
+- `src/App.tsx` — Main kiosk orchestrator and screen router
+- `src/screens/ayush/` — AYUSH Prakriti assessment and Physician case sheet
+- `src/screens/kiosk/` — Vitals, Pathway selection, and Gemini OCR verification
+- `src/components/` — Modals (Help, Inactivity timeout, Physician auth, Source trace) and VoiceInput
+- `src/services/api.ts` — Typed client API layer connecting to backend
+- `src/types/index.ts` — Canonical clinical data contracts
+- `src/utils/i18n.ts` — Multilingual strings (English, Hindi) & Web Speech synthesis
+- `server/index.js` — Express REST API with OCR extraction & queue persistence
+- `server/aiEngine.js` — Prakriti calculation, Agni/Koshtha scoring, & Gemini clinical summary
+- `server/db.js` — Queue repository & audit event repository
+- `server/data/` — Persistent JSON database (`db.json`) and demo prescription
 
-- `src/main.tsx` - React entrypoint; imports `src/index.css` and mounts `src/App.tsx` into the `#root` element
-- `src/App.tsx` - Primary application component and the usual starting point for UI work
-- `src/index.css` - Global CSS entrypoint and Tailwind CSS v4 import
-- `index.html` - Vite HTML shell containing the `#root` element and loading `src/main.tsx`
-- `package.json` - Project dependencies and the Vite build, development, preview, and formatting scripts
-- `vite.config.ts` - Vite configuration with React, Tailwind CSS v4, and Figma Make plugins plus the `@` alias for `src`
-- `.mise.toml` - Toolchain versions for Node.js and pnpm
+## Key Commands
 
-## Dependencies
-
-- Runtime: React 19 and React DOM 19
-- Styling: Tailwind CSS v4 with the `@tailwindcss/vite` plugin
-- Build tooling: Vite 8, TypeScript 5.7, and `@vitejs/plugin-react`
-- Formatting: oxfmt
-
-## Styling
-
-This project uses **Tailwind CSS v4** through the `@tailwindcss/vite` plugin configured in `vite.config.ts`. `src/index.css` imports Tailwind with `@import 'tailwindcss';`. Use Tailwind utility classes directly in JSX and put global CSS or Tailwind v4 theme customization in `src/index.css`. This scaffold does not need a Tailwind config file or PostCSS config.
-
-`src/main.tsx` imports `src/index.css`, so global font wiring belongs in `src/index.css`. Keep CSS `@import` statements first, then add any `@font-face` rules and font-family defaults there.
+- `npm run dev` — Start Vite dev server on port 5173
+- `npm run build` — Build production bundle to `dist/`
+- `npm run check` — Run TypeScript type checking (`tsc --noEmit`)
+- `node server/index.js` — Start Express backend on port 5000

@@ -448,19 +448,6 @@ app.get('/api/ocr/sample', (_req, res) => {
   res.status(404).json({ success: false, error: 'Sample prescription not found' })
 })
 
-// ─── 7. Queue Status & Physician Confirmations ───────────────────────────────
-app.patch('/api/queue/:id/status', (req, res) => {
-  try {
-    const { status, notes } = req.body
-    const updated = QueueRepository.updateStatus(req.params.id, status, notes)
-    if (!updated) {
-      return res.status(404).json({ success: false, error: 'Patient case not found' })
-    }
-    res.json({ success: true, data: updated })
-  } catch (err) {
-    res.status(500).json({ success: false, error: err.message })
-  }
-})
 
 // ─── 8. Physician Acknowledge Red-Flag ─────────────────────────────────────────
 app.post('/api/queue/:id/red-flag/acknowledge', (req, res) => {
