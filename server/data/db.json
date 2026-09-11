@@ -1,0 +1,1322 @@
+{
+  "lastToken": 131,
+  "intakes": [
+    {
+      "id": "case-1789124744304",
+      "token": "#131",
+      "timestamp": "2026-09-11T11:05:44.304Z",
+      "status": "waiting",
+      "editHistory": [],
+      "patientName": "Priya Sharma",
+      "age": 34,
+      "gender": "F",
+      "phone": "9876543210",
+      "abhaId": "32-1144-5566-7788",
+      "opdType": "ayush",
+      "department": "Ayurveda OPD",
+      "chiefComplaint": "Joint / Knee Pain",
+      "rawPatientStatement": "Joint / Knee Pain",
+      "ayushAnswers": {
+        "bodyFrame": "moderate_warm",
+        "skin": "warm_reddish",
+        "weatherSensitivity": "cold_wind",
+        "mentalSleep": "deep_slow",
+        "agniChoice": "normal",
+        "koshthaChoice": "regular_normal",
+        "dominantTaste": "",
+        "dailyRoutine": "",
+        "physicalActivity": ""
+      },
+      "medications": [
+        {
+          "name": "Tab. Amlodipine 5mg",
+          "dosage": "1 tab",
+          "frequency": "Once daily in morning",
+          "duration": null,
+          "confidence": 98,
+          "source": "ocr_prescription",
+          "verified": true
+        },
+        {
+          "name": "Tab. Metformin 500mg",
+          "dosage": "1 tab",
+          "frequency": "Twice daily after meals",
+          "duration": null,
+          "confidence": 98,
+          "source": "ocr_prescription",
+          "verified": true
+        },
+        {
+          "name": "Ashwagandha Churna 3g",
+          "dosage": "1 teaspoon",
+          "frequency": "At bedtime with warm milk",
+          "duration": null,
+          "confidence": 98,
+          "source": "ocr_prescription",
+          "verified": true
+        }
+      ],
+      "allergyStatus": "unspecified",
+      "ayushData": {
+        "prakriti": {
+          "primary": "Pitta Dominant",
+          "vata": 20,
+          "pitta": 50,
+          "kapha": 30,
+          "isScoreEstimate": true,
+          "disclaimer": "AI-assisted questionnaire assessment. This is not a laboratory measurement or final medical diagnosis."
+        },
+        "agni": {
+          "type": "Sama Agni",
+          "label": "Balanced & Steady Digestion",
+          "sanskrit": "समाग्नि",
+          "description": "Regular hunger cycles, smooth assimilation, energizing post-meal state."
+        },
+        "koshtha": {
+          "type": "Madhyama Koshtha",
+          "label": "Regular & Normal Elimination",
+          "sanskrit": "मध्यम कोष्ठ",
+          "description": "Formed bowel movement once daily with complete sensation of clearance."
+        },
+        "rawAnswers": {
+          "bodyFrame": "moderate_warm",
+          "skin": "warm_reddish",
+          "weatherSensitivity": "cold_wind",
+          "mentalSleep": "deep_slow",
+          "agniChoice": "normal",
+          "koshthaChoice": "regular_normal",
+          "dominantTaste": "",
+          "dailyRoutine": "",
+          "physicalActivity": ""
+        }
+      },
+      "aiSummary": {
+        "triageTag": "routine",
+        "clinicalHeadline": "34-year-old female presenting with joint/knee pain, with comorbid hypertension and diabetes mellitus, exhibiting a Pitta-dominant constitution.",
+        "ayushAssessment": {
+          "doshaImbalance": "Vata Vyadhi (joint pain) manifesting in a Pitta-dominant (50%) and Kapha-intermediate (30%) constitution, suggesting a Vata-Pitta involvement.",
+          "agniStatus": "Sama Agni (Balanced & Steady Digestion)",
+          "koshthaStatus": "Madhyama Koshtha (Regular & Normal Elimination)",
+          "provisionalAyushDiagnosis": "Sandhigata Vata (Joint Pain / Osteoarthritis-like presentation) / Janu Shoola",
+          "pathyaApathya": "Pathya: Warm, freshly cooked, easy-to-digest meals; gentle joint movements; warm milk. Apathya: Cold, dry, and stale food; excessive exposure to cold wind; high-impact physical strain on the knees."
+        },
+        "allopathicSummary": {
+          "hpi": "34-year-old female presents with chief complaint of joint/knee pain. Patient has a history of hypertension managed with Tab. Amlodipine 5mg daily, and Type 2 Diabetes Mellitus managed with Tab. Metformin 500mg twice daily. She is also taking Ashwagandha Churna 3g at bedtime.",
+          "redFlags": [
+            "Acute joint swelling, warmth, or erythema",
+            "Fever or systemic symptoms",
+            "Inability to bear weight on the affected limb",
+            "Rapidly progressive joint pain or morning stiffness exceeding 1 hour"
+          ],
+          "suggestedActions": [
+            "Perform physical examination of the knee joints (assess for effusion, crepitus, range of motion, and ligamentous stability)",
+            "Check current blood pressure and blood glucose levels (FBS/PPBS/HbA1c) to assess control of comorbidities",
+            "Inquire about the duration, onset, and character of the joint pain"
+          ]
+        },
+        "missingInformation": [
+          "Duration, onset, and progression of the knee pain",
+          "History of recent trauma, injury, or strenuous physical activity",
+          "Specific allergy status (currently marked as unspecified)",
+          "Recent blood pressure readings and glycemic control reports"
+        ]
+      },
+      "redFlags": []
+    },
+    {
+      "id": "case-1789124423414",
+      "token": "#130",
+      "timestamp": "2026-09-11T11:00:23.414Z",
+      "status": "waiting",
+      "editHistory": [],
+      "patientName": "Ramesh Kumar",
+      "age": 56,
+      "gender": "M",
+      "phone": "9412345678",
+      "abhaId": "14-8921-3321-9988",
+      "opdType": "ayush",
+      "department": "Ayurveda OPD",
+      "chiefComplaint": "Joint / Knee Pain",
+      "rawPatientStatement": "Joint / Knee Pain",
+      "ayushAnswers": {
+        "bodyFrame": "thin_dry",
+        "skin": "oily_smooth",
+        "weatherSensitivity": "heat_sun",
+        "mentalSleep": "moderate_intense",
+        "agniChoice": "irregular",
+        "koshthaChoice": "hard_constipated",
+        "dominantTaste": "",
+        "dailyRoutine": "",
+        "physicalActivity": ""
+      },
+      "medications": [
+        {
+          "name": "Tab. Amlodipine 5mg",
+          "dosage": "1 tab",
+          "frequency": "Once daily in morning",
+          "duration": null,
+          "confidence": 98,
+          "source": "ocr_prescription",
+          "verified": true
+        },
+        {
+          "name": "Tab. Metformin 500mg",
+          "dosage": "1 tab",
+          "frequency": "Twice daily after meals",
+          "duration": null,
+          "confidence": 98,
+          "source": "ocr_prescription",
+          "verified": true
+        },
+        {
+          "name": "Ashwagandha Churna 3g",
+          "dosage": "1 teaspoon",
+          "frequency": "At bedtime with warm milk",
+          "duration": null,
+          "confidence": 98,
+          "source": "ocr_prescription",
+          "verified": true
+        }
+      ],
+      "allergyStatus": "unspecified",
+      "ayushData": {
+        "prakriti": {
+          "primary": "Pitta Dominant",
+          "vata": 30,
+          "pitta": 50,
+          "kapha": 20,
+          "isScoreEstimate": true,
+          "disclaimer": "AI-assisted questionnaire assessment. This is not a laboratory measurement or final medical diagnosis."
+        },
+        "agni": {
+          "type": "Vishama Agni",
+          "label": "Irregular / Fluctuating Appetite",
+          "sanskrit": "विषमाग्नि",
+          "description": "Variable appetite with frequent abdominal distension, gas, or colic."
+        },
+        "koshtha": {
+          "type": "Krura Koshtha",
+          "label": "Hard Stool / Constipation Prone",
+          "sanskrit": "क्रूर कोष्ठ",
+          "description": "Dry hard bowel movement, irregular frequency, evacuation requires effort."
+        },
+        "rawAnswers": {
+          "bodyFrame": "thin_dry",
+          "skin": "oily_smooth",
+          "weatherSensitivity": "heat_sun",
+          "mentalSleep": "moderate_intense",
+          "agniChoice": "irregular",
+          "koshthaChoice": "hard_constipated",
+          "dominantTaste": "",
+          "dailyRoutine": "",
+          "physicalActivity": ""
+        }
+      },
+      "aiSummary": {
+        "triageTag": "routine",
+        "clinicalHeadline": "56-year-old male presenting with Joint and Knee Pain, with known history of hypertension and diabetes on medication.",
+        "ayushAssessment": {
+          "doshaImbalance": "Pitta Dominant Prakriti (Vata: 30%, Pitta: 50%, Kapha: 20%)",
+          "agniStatus": "Vishama Agni (Irregular / Fluctuating Appetite)",
+          "koshthaStatus": "Krura Koshtha (Hard Stool / Constipation Prone)",
+          "provisionalAyushDiagnosis": "Sandhigata Vata (Joint/Knee Pain)",
+          "pathyaApathya": "Advised warm, easily digestible foods, adequate hydration, and avoidance of dry, cold, or excessively spicy foods that aggravate Vata and Pitta."
+        },
+        "allopathicSummary": {
+          "hpi": "Patient presents to Ayurveda OPD with chief complaint of Joint / Knee Pain. Current medications include Tab. Amlodipine 5mg once daily, Tab. Metformin 500mg twice daily, and Ashwagandha Churna 3g at bedtime.",
+          "redFlags": [],
+          "suggestedActions": [
+            "Review blood pressure and blood sugar control",
+            "Evaluate joint pain for degenerative or inflammatory etiology",
+            "Monitor bowel regularity given Krura Koshtha"
+          ]
+        },
+        "missingInformation": [
+          "Duration and exact location/severity of joint/knee pain",
+          "Dominant taste preferences",
+          "Daily routine and physical activity details",
+          "Allergy status specifics"
+        ]
+      },
+      "redFlags": []
+    },
+    {
+      "id": "case-1789122912198",
+      "token": "#129",
+      "timestamp": "2026-09-11T10:35:12.198Z",
+      "status": "waiting",
+      "editHistory": [],
+      "patientName": "Priya Sharma",
+      "age": 34,
+      "gender": "F",
+      "phone": "9876543210",
+      "abhaId": "32-1144-5566-7788",
+      "opdType": "ayush",
+      "department": "Ayurveda OPD",
+      "chiefComplaint": "संधिवात (जोड़ों में दर्द)",
+      "rawPatientStatement": "संधिवात (जोड़ों में दर्द)",
+      "ayushAnswers": {
+        "bodyFrame": "moderate_warm",
+        "skin": "oily_smooth",
+        "weatherSensitivity": "cold_damp",
+        "mentalSleep": "deep_slow",
+        "agniChoice": "irregular",
+        "koshthaChoice": "hard_constipated",
+        "dominantTaste": "",
+        "dailyRoutine": "",
+        "physicalActivity": ""
+      },
+      "medications": [
+        {
+          "name": "Metformin Hydrochloride",
+          "dosage": "500 mg",
+          "frequency": "Twice daily (after meals)",
+          "confidence": 97,
+          "source": "ocr_prescription",
+          "verified": true
+        },
+        {
+          "name": "Amlodipine Besylate",
+          "dosage": "5 mg",
+          "frequency": "Once daily (morning)",
+          "confidence": 95,
+          "source": "ocr_prescription",
+          "verified": true
+        },
+        {
+          "name": "Atorvastatin Calcium",
+          "dosage": "10 mg",
+          "frequency": "Once daily (bedtime)",
+          "confidence": 91,
+          "source": "ocr_prescription",
+          "verified": true
+        },
+        {
+          "name": "vugcv",
+          "dosage": "10 mg",
+          "frequency": "Once daily",
+          "confidence": 100,
+          "source": "manual",
+          "verified": true
+        }
+      ],
+      "allergyStatus": "unspecified",
+      "ayushData": {
+        "prakriti": {
+          "primary": "Kapha Dominant",
+          "vata": 0,
+          "pitta": 30,
+          "kapha": 70,
+          "isScoreEstimate": true,
+          "disclaimer": "AI-assisted questionnaire assessment. This is not a laboratory measurement or final medical diagnosis."
+        },
+        "agni": {
+          "type": "Vishama Agni",
+          "label": "Irregular / Fluctuating Appetite",
+          "sanskrit": "विषमाग्नि",
+          "description": "Variable appetite with frequent abdominal distension, gas, or colic."
+        },
+        "koshtha": {
+          "type": "Krura Koshtha",
+          "label": "Hard Stool / Constipation Prone",
+          "sanskrit": "क्रूर कोष्ठ",
+          "description": "Dry hard bowel movement, irregular frequency, evacuation requires effort."
+        },
+        "rawAnswers": {
+          "bodyFrame": "moderate_warm",
+          "skin": "oily_smooth",
+          "weatherSensitivity": "cold_damp",
+          "mentalSleep": "deep_slow",
+          "agniChoice": "irregular",
+          "koshthaChoice": "hard_constipated",
+          "dominantTaste": "",
+          "dailyRoutine": "",
+          "physicalActivity": ""
+        }
+      },
+      "aiSummary": {
+        "triageTag": "routine",
+        "clinicalHeadline": "34F with Sandhivata (joint pain), Kapha-dominant Prakriti, Vishama Agni, Krura Koshtha; on Metformin, Amlodipine, Atorvastatin, and unverified medication 'vugcv'.",
+        "ayushAssessment": {
+          "doshaImbalance": "Kapha-dominant Prakriti (Kapha 70%, Pitta 30%); chief complaint of Sandhivata along with Vishama Agni and Krura Koshtha indicates underlying Vata Dushti.",
+          "agniStatus": "Vishama Agni (विषमाग्नि - Irregular / Fluctuating Appetite)",
+          "koshthaStatus": "Krura Koshtha (क्रूर कोष्ठ - Hard Stool / Constipation Prone)",
+          "provisionalAyushDiagnosis": "Sandhivata (संधिवात) - Joint pain with Vata-Kapha involvement",
+          "pathyaApathya": "Pathya: Ushna (warm) and Laghu (light, easily digestible) Ahara, warm water consumption, fibre-rich diet to support bowel movement. Apathya: Cold, damp exposure, Sheeta (cold), Ruksha (dry), or excessively heavy foods, and suppression of natural urges (Adharaniya Vega)."
+        },
+        "allopathicSummary": {
+          "hpi": "34-year-old female presents to the Ayurveda OPD with chief complaint of joint pain described as Sandhivata (संधिवात). She has an established medication history including Metformin 500 mg BID, Amlodipine 5 mg OD, Atorvastatin 10 mg OD (suggestive of Diabetes Mellitus, Hypertension, and Dyslipidemia), and an unverified manual entry 'vugcv 10 mg'.",
+          "redFlags": [
+            "No acute red flags documented in intake; monitor for severe acute monoarthritis, systemic signs (fever), or sudden cardiovascular symptoms given baseline comorbidities."
+          ],
+          "suggestedActions": [
+            "Conduct a focused musculoskeletal exam to assess joint swelling, tenderness, range of motion, and erythema.",
+            "Reconcile medication history, specifically clarifying the unverified drug 'vugcv 10 mg'.",
+            "Check vital signs (Blood Pressure, Heart Rate) and review glycemic/lipid control (HbA1c, Lipid Panel).",
+            "Evaluate joint pain characteristics (onset, duration, morning stiffness, aggravating/relieving factors)."
+          ]
+        },
+        "missingInformation": [
+          "Duration, specific site(s), severity, and onset characteristics of joint pain.",
+          "Baseline vital signs (BP, Pulse, Temperature, SpO2).",
+          "Clarification of the unverified medication 'vugcv'.",
+          "Documented drug and food allergy status (currently unspecified).",
+          "Dietary taste preferences (Ahara Rasa), daily routine (Dinacharya), and physical activity level."
+        ]
+      },
+      "redFlags": []
+    },
+    {
+      "id": "case-1789122747841",
+      "token": "#128",
+      "timestamp": "2026-09-11T10:32:27.841Z",
+      "status": "waiting",
+      "editHistory": [],
+      "patientName": "Priya Sharma",
+      "age": 34,
+      "gender": "F",
+      "phone": "9876543210",
+      "abhaId": "32-1144-5566-7788",
+      "opdType": "ayush",
+      "department": "Ayurveda OPD",
+      "chiefComplaint": "Joint / Knee Pain",
+      "rawPatientStatement": "Joint / Knee Pain",
+      "ayushAnswers": {
+        "bodyFrame": "thin_dry",
+        "skin": "warm_reddish",
+        "weatherSensitivity": "heat_sun",
+        "mentalSleep": "deep_slow",
+        "agniChoice": "very_low",
+        "koshthaChoice": "soft_loose",
+        "dominantTaste": "",
+        "dailyRoutine": "",
+        "physicalActivity": ""
+      },
+      "medications": [
+        {
+          "name": "Metformin Hydrochloride",
+          "dosage": "500 mg",
+          "frequency": "Twice daily (after meals)",
+          "confidence": 97,
+          "source": "ocr_prescription",
+          "verified": true
+        },
+        {
+          "name": "Amlodipine Besylate",
+          "dosage": "5 mg",
+          "frequency": "Once daily (morning)",
+          "confidence": 95,
+          "source": "ocr_prescription",
+          "verified": true
+        },
+        {
+          "name": "Atorvastatin Calcium",
+          "dosage": "10 mg",
+          "frequency": "Once daily (bedtime)",
+          "confidence": 91,
+          "source": "ocr_prescription",
+          "verified": true
+        }
+      ],
+      "allergyStatus": "unspecified",
+      "ayushData": {
+        "prakriti": {
+          "primary": "Pitta-Vata Dwandvaja",
+          "vata": 30,
+          "pitta": 40,
+          "kapha": 30,
+          "isScoreEstimate": true,
+          "disclaimer": "AI-assisted questionnaire assessment. This is not a laboratory measurement or final medical diagnosis."
+        },
+        "agni": {
+          "type": "Manda Agni",
+          "label": "Sluggish / Slow Digestion",
+          "sanskrit": "मन्दाग्नि",
+          "description": "Reduced digestive fire, post-meal fullness, takes hours to feel light."
+        },
+        "koshtha": {
+          "type": "Mridu Koshtha",
+          "label": "Soft Stool / Sensitive Evacuation",
+          "sanskrit": "मृदु कोष्ठ",
+          "description": "Easily provoked by milk, grapes, or warm spices, tendency to loose motions."
+        },
+        "rawAnswers": {
+          "bodyFrame": "thin_dry",
+          "skin": "warm_reddish",
+          "weatherSensitivity": "heat_sun",
+          "mentalSleep": "deep_slow",
+          "agniChoice": "very_low",
+          "koshthaChoice": "soft_loose",
+          "dominantTaste": "",
+          "dailyRoutine": "",
+          "physicalActivity": ""
+        }
+      },
+      "aiSummary": {
+        "triageTag": "routine",
+        "clinicalHeadline": "34-year-old female presenting with joint/knee pain; on baseline cardio-metabolic pharmacotherapy",
+        "ayushAssessment": {
+          "doshaImbalance": "Pitta-Vata Dwandvaja Prakriti predominance with Vata-Pitta involvement in joint symptom",
+          "agniStatus": "Manda Agni (Sluggish / Slow Digestion)",
+          "koshthaStatus": "Mridu Koshtha (Soft Stool / Sensitive Evacuation)",
+          "provisionalAyushDiagnosis": "Sandhishoola (Knee Pain) - pending physical examination to differentiate Sandhigata Vata / Vatarakta",
+          "pathyaApathya": "Pathya: Warm, fresh, light, and easily digestible food (Laghu Ahara). Apathya: Cold, heavy, deep-fried, or excessively spicy foods that aggravate Manda Agni and provoke Mridu Koshtha."
+        },
+        "allopathicSummary": {
+          "hpi": "34-year-old female presents with chief complaint of joint/knee pain. Verified current medications indicate ongoing treatment for Type 2 Diabetes Mellitus (Metformin 500mg BD), Hypertension (Amlodipine 5mg OD), and Dyslipidemia (Atorvastatin 10mg OD).",
+          "redFlags": [
+            "Statin-associated muscle/joint pain or myopathy (Atorvastatin usage)",
+            "Signs of acute septic arthritis or active inflammatory monoarthritis (heat, severe effusion, erythema, fever)",
+            "Uncontrolled metabolic parameters (glycemic or lipid status)"
+          ],
+          "suggestedActions": [
+            "Perform localized physical examination of knees (swelling, warmth, effusion, range of motion)",
+            "Order baseline blood tests: HbA1c, Serum Uric Acid, ESR, CRP, RFT, LFT, and Serum Creatine Kinase (CPK) to evaluate statin tolerance",
+            "Re-evaluate chronic medication adherence and blood pressure/glycemic control"
+          ]
+        },
+        "missingInformation": [
+          "Onset, duration, character, and severity of knee pain",
+          "Presence of morning stiffness, localized warmth, or joint swelling",
+          "Allergy status (currently marked as unspecified)",
+          "Ayush questionnaire gaps: dominant taste preference, daily routine, and physical activity level"
+        ]
+      },
+      "redFlags": []
+    },
+    {
+      "id": "case-1789122149305",
+      "token": "#127",
+      "timestamp": "2026-09-11T10:22:29.305Z",
+      "status": "waiting",
+      "editHistory": [],
+      "patientName": "Emergency Patient",
+      "age": 60,
+      "gender": "M",
+      "phone": "9111111111",
+      "opdType": "allopathy",
+      "chiefComplaint": "Severe shortness of breath",
+      "vitals": {
+        "bpSystolic": 195,
+        "bpDiastolic": 125,
+        "pulse": 120,
+        "spo2": 86,
+        "isCritical": true
+      },
+      "aiSummary": {
+        "triageTag": "urgent_attention",
+        "clinicalHeadline": "60M presenting with severe dyspnea, acute hypoxemia (SpO2 86%), severe hypertension (195/125 mmHg), and tachycardia (120 bpm)",
+        "ayushAssessment": {
+          "doshaImbalance": "Not evaluated (Allopathic emergency intake)",
+          "agniStatus": "Not evaluated",
+          "koshthaStatus": "Not evaluated",
+          "provisionalAyushDiagnosis": "Not evaluated",
+          "pathyaApathya": "Not applicable during acute emergency stabilization"
+        },
+        "allopathicSummary": {
+          "hpi": "60-year-old male presents with chief complaint of severe shortness of breath. Kiosk intake vitals indicate critical instability with severe hypoxemia (SpO2 86%), severe hypertension (BP 195/125 mmHg), and tachycardia (Pulse 120 bpm).",
+          "redFlags": [
+            "Severe hypoxemia (SpO2 86%)",
+            "Hypertensive crisis level BP (195/125 mmHg)",
+            "Tachycardia (Pulse 120 bpm)",
+            "Acute severe respiratory distress"
+          ],
+          "suggestedActions": [
+            "Immediate transfer to emergency/resuscitation room",
+            "Initiate immediate supplemental high-flow oxygen",
+            "Stat physician evaluation and continuous cardiopulmonary monitoring",
+            "Perform urgent 12-lead ECG, ABG, and establish venous access"
+          ]
+        },
+        "missingInformation": [
+          "Onset and duration of shortness of breath",
+          "Associated symptoms (chest pain, fever, cough, orthopnea, pedal edema)",
+          "Past medical history (CAD, Heart Failure, COPD, Asthma, CKD, HTN)",
+          "Current medication history and allergies"
+        ]
+      },
+      "redFlags": [
+        {
+          "id": "rf-vitals-1789122137979",
+          "ruleId": "rf_critical_vitals",
+          "name": "Hypertensive Crisis Alert",
+          "category": "vitals",
+          "severity": "urgent",
+          "symptomSnippet": "Severe BP recorded: 195/125 mmHg",
+          "staffMessage": "Emergency vital signs captured at kiosk triage. Immediate doctor assessment required.",
+          "timestamp": "2026-09-11T10:22:17.979Z",
+          "acknowledged": false,
+          "acknowledgedBy": null,
+          "acknowledgedAt": null,
+          "dismissed": false
+        }
+      ]
+    },
+    {
+      "id": "case-1789122137964",
+      "token": "#126",
+      "timestamp": "2026-09-11T10:22:17.964Z",
+      "status": "completed",
+      "editHistory": [],
+      "patientName": "Ramesh Kumar",
+      "age": 52,
+      "gender": "M",
+      "phone": "9876543210",
+      "abhaId": "14-1234-5678-9012",
+      "opdType": "allopathy",
+      "chiefComplaint": "Chest discomfort on exertion",
+      "rawPatientStatement": "I feel heavy in the chest while climbing stairs",
+      "vitals": {
+        "bpSystolic": 145,
+        "bpDiastolic": 92,
+        "pulse": 84,
+        "spo2": 97,
+        "temp": 98.6,
+        "isCritical": false
+      },
+      "medications": [
+        {
+          "name": "Amlodipine 5mg",
+          "dosage": "1 tablet daily",
+          "frequency": "Once daily"
+        }
+      ],
+      "allergyStatus": "No known allergies",
+      "aiSummary": {
+        "triageTag": "routine",
+        "clinicalHeadline": "Chest discomfort on exertion — Clinical documentation briefing",
+        "allopathicSummary": {
+          "hpi": "Patient presents with Chest discomfort on exertion lasting recent duration.",
+          "redFlags": [],
+          "suggestedActions": [
+            "Routine physical examination",
+            "Review prior documentation"
+          ]
+        },
+        "missingInformation": [],
+        "provenance": [
+          {
+            "statement": "Chief presenting complaint",
+            "source": "Patient Kiosk Input",
+            "confidence": "High"
+          }
+        ]
+      },
+      "redFlags": [],
+      "physicianNotes": "Patient advised ECG and Echo. Continue Amlodipine 5mg OD."
+    },
+    {
+      "id": "case-102",
+      "token": "#124",
+      "patientName": "Ramesh Kumar",
+      "age": 56,
+      "gender": "M",
+      "phone": "+91 94123 45678",
+      "abhaId": "91-2345-6789-0123",
+      "opdType": "allopathy",
+      "department": "Cardiology OPD",
+      "status": "in-consultation",
+      "timestamp": "2026-09-11T10:22:05.070Z",
+      "chiefComplaint": "Central chest pressure & exertion dyspnea × 1 day",
+      "rawPatientStatement": "I feel heavy squeezing pressure in the center of my chest since yesterday evening, spreads to left arm.",
+      "duration": "1 day",
+      "painScore": 7,
+      "symptoms": [
+        "Substernal chest pressure radiating to left arm",
+        "Exertional dyspnea (breathlessness)",
+        "Cold diaphoresis (sweating)"
+      ],
+      "pastHistory": [
+        "Type 2 Diabetes Mellitus (8 yrs)",
+        "Essential Hypertension (5 yrs)"
+      ],
+      "medications": [
+        {
+          "name": "Metformin",
+          "dosage": "500 mg",
+          "frequency": "Twice daily",
+          "source": "ocr_prescription",
+          "confidence": 97,
+          "verified": true
+        },
+        {
+          "name": "Amlodipine",
+          "dosage": "5 mg",
+          "frequency": "Once daily",
+          "source": "ocr_prescription",
+          "confidence": 95,
+          "verified": true
+        },
+        {
+          "name": "Atorvastatin",
+          "dosage": "10 mg",
+          "frequency": "Night",
+          "source": "ocr_prescription",
+          "confidence": 91,
+          "verified": true
+        }
+      ],
+      "allergies": [
+        "No known drug allergies (NKDA)"
+      ],
+      "allergyStatus": "none",
+      "investigations": [
+        {
+          "test": "HbA1c",
+          "value": "8.2%",
+          "date": "Aug 12, 2026",
+          "flag": true
+        },
+        {
+          "test": "Serum Creatinine",
+          "value": "1.1 mg/dL",
+          "date": "Aug 12, 2026",
+          "flag": false
+        },
+        {
+          "test": "BP (Kiosk Checked)",
+          "value": "158/96 mmHg",
+          "date": "Today",
+          "flag": true
+        }
+      ],
+      "redFlags": [
+        {
+          "id": "rf-1",
+          "ruleId": "rf_cardiac_angina",
+          "name": "Acute Typical Angina / ACS Suspicion",
+          "category": "cardiac",
+          "severity": "urgent",
+          "symptomSnippet": "Substernal chest pressure with cold diaphoresis or arm radiation",
+          "staffMessage": "Patient reported chest discomfort with cold diaphoresis or arm radiation. Potential ACS. Immediate 12-lead ECG & cardiac evaluation required.",
+          "timestamp": "2026-09-11T09:53:21.700Z",
+          "acknowledged": false,
+          "acknowledgedBy": null,
+          "acknowledgedAt": null,
+          "dismissed": false,
+          "dismissReason": null
+        }
+      ],
+      "aiSummary": {
+        "triageTag": "urgent_attention",
+        "clinicalHeadline": "Acute Typical Angina in a 56M Hypertensive Diabetic",
+        "attentionNotes": "Hypertensive diabetic with acute typical angina symptoms. Immediate 12-lead ECG & Trop-I indicated.",
+        "allopathicSummary": {
+          "hpi": "Patient reports 1-day history of heavy pressure-like chest tightness radiating to the left arm, exacerbated by exertion.",
+          "redFlags": [
+            "Substernal chest pressure radiating to left arm with diaphoresis"
+          ],
+          "suggestedActions": [
+            "Stat 12-Lead ECG",
+            "Serum Troponin-I / CK-MB",
+            "Continuous vitals monitor",
+            "Cardiology consult"
+          ]
+        },
+        "provenance": [
+          {
+            "statement": "Substernal chest pressure with left arm radiation",
+            "source": "PATIENT_SPOKEN",
+            "confidence": "High"
+          },
+          {
+            "statement": "Metformin 500mg & Amlodipine 5mg",
+            "source": "OCR",
+            "confidence": "96%"
+          }
+        ]
+      },
+      "documents": [
+        {
+          "id": "d1",
+          "date": "Aug 12, 2026",
+          "year": 2026,
+          "type": "Prescription",
+          "title": "Cardiology Followup Rx",
+          "summary": "Metformin 500mg, Amlodipine 5mg"
+        },
+        {
+          "id": "d2",
+          "date": "Aug 12, 2026",
+          "year": 2026,
+          "type": "Lab Report",
+          "title": "Glycemic Profile",
+          "summary": "HbA1c: 8.2%",
+          "flag": true
+        }
+      ],
+      "editHistory": [],
+      "isDemoData": true
+    },
+    {
+      "id": "case-101",
+      "token": "#123",
+      "patientName": "Priya Sharma",
+      "age": 42,
+      "gender": "F",
+      "phone": "+91 98765 43210",
+      "abhaId": "45-8912-3456-7890",
+      "opdType": "ayush",
+      "department": "Ayurveda OPD",
+      "status": "waiting",
+      "timestamp": "2026-09-11T10:22:05.070Z",
+      "chiefComplaint": "Sandhivata (Chronic knee joint stiffness & swelling) × 6 months",
+      "rawPatientStatement": "My knee joints crack and feel very stiff in the morning. Better when I put warm oil.",
+      "duration": "6 months",
+      "painScore": 6,
+      "symptoms": [
+        "Joint stiffness in morning",
+        "Crepitus/cracking sound",
+        "Worse in cold dry weather",
+        "Digestive heaviness post-meal"
+      ],
+      "ayushData": {
+        "prakriti": {
+          "primary": "Vata-Kapha Dwandvaja",
+          "vata": 55,
+          "pitta": 20,
+          "kapha": 25,
+          "bodyFrame": "Thin to moderate build, tends to dry skin",
+          "weatherSensitivity": "Averse to cold and dry winds (Shita-Asahishnuta)",
+          "mentalSleep": "Light sleeper, active mind, tires easily",
+          "isScoreEstimate": true
+        },
+        "agni": {
+          "type": "Manda Agni",
+          "description": "Sluggish digestive fire, slow digestion, post-meal heaviness",
+          "sanskrit": "मन्दाग्नि"
+        },
+        "koshtha": {
+          "type": "Krura Koshtha",
+          "description": "Hard bowel movements, mild constipation tendency",
+          "sanskrit": "क्रूर कोष्ठ"
+        },
+        "ahara": {
+          "dominantTaste": "Pungent & Bitter preference",
+          "mealRoutine": "Irregular lunch times, low warm water intake"
+        },
+        "vihara": {
+          "activity": "Sedentary desk work, limited joint movement",
+          "stress": "Moderate work stress, disturbed sleep"
+        },
+        "dashavidha": {
+          "bala": "Madhyama (Medium endurance)",
+          "desha": "Sadharana (Mixed temperate)",
+          "kala": "Shishira / Hemanta (Winter aggravation)"
+        }
+      },
+      "aiSummary": {
+        "triageTag": "routine",
+        "clinicalHeadline": "Sandhigata Vata with Aama association in a Vata-Kapha constitution",
+        "provisionalAyushDiagnosis": "Sandhigata Vata (Osteoarthrosis) with Aama association",
+        "pathogenesis": "Vitiated Vata dosha localized in Janu sandhi (knee joints) with sluggish Jatharagni contributing to metabolic Aama formation.",
+        "recommendedPathya": "Warm sesame oil local abhyanga, Sunthi (dry ginger) water, light warm easily digestible meals (Laghu Ahara).",
+        "recommendedApathya": "Cold refrigerated foods, curd at night, dry raw salads, prolonged standing.",
+        "investigationsSuggested": [
+          "X-Ray Both Knees (AP & Lateral)",
+          "Serum Uric Acid",
+          "RA Factor"
+        ],
+        "provenance": [
+          {
+            "statement": "Prakriti & Agni characteristics",
+            "source": "PATIENT_SELECTED",
+            "confidence": "High"
+          },
+          {
+            "statement": "Morning joint stiffness & crepitus",
+            "source": "PATIENT_SPOKEN",
+            "confidence": "High"
+          }
+        ]
+      },
+      "allergies": [
+        "No known drug allergies"
+      ],
+      "allergyStatus": "none",
+      "editHistory": [],
+      "isDemoData": true
+    },
+    {
+      "id": "case-100",
+      "token": "#122",
+      "patientName": "Sunita Verma",
+      "age": 34,
+      "gender": "F",
+      "phone": "+91 98111 22334",
+      "abhaId": "12-3456-7890-1234",
+      "opdType": "ayush",
+      "department": "Ayurveda OPD",
+      "status": "waiting",
+      "timestamp": "2026-09-11T10:22:05.070Z",
+      "chiefComplaint": "Amalpitta (Chronic Hyperacidity, Sour Belching & Retrosternal Burning)",
+      "rawPatientStatement": "Intense burning in throat and chest 2 hours after meals, cannot tolerate spicy food.",
+      "duration": "3 months",
+      "painScore": 5,
+      "symptoms": [
+        "Retrosternal burning (Vidaha)",
+        "Sour and bitter eructations (Tikta-Amla Udgara)",
+        "Headache when meals delayed",
+        "Nausea in morning"
+      ],
+      "ayushData": {
+        "prakriti": {
+          "primary": "Pitta Dominant",
+          "vata": 25,
+          "pitta": 60,
+          "kapha": 15,
+          "bodyFrame": "Medium frame, sensitive warm skin with flushing",
+          "weatherSensitivity": "Intolerant to direct sun and heat",
+          "mentalSleep": "Moderate sleep, vivid dreams, sharp temper",
+          "isScoreEstimate": true
+        },
+        "agni": {
+          "type": "Tikshna Agni",
+          "description": "Hyper-intense appetite, severe heartburn if food delayed",
+          "sanskrit": "तीक्ष्णाग्नि"
+        },
+        "koshtha": {
+          "type": "Mridu Koshtha",
+          "description": "Soft stool, easily irritated by spices or warm milk",
+          "sanskrit": "मृदु कोष्ठ"
+        },
+        "ahara": {
+          "dominantTaste": "Craves sweets, sensitive to sour and pungent",
+          "mealRoutine": "Frequent tea drinking, delayed lunches"
+        },
+        "vihara": {
+          "activity": "Moderate activity, computer screen fatigue",
+          "stress": "High mental deadlines"
+        }
+      },
+      "aiSummary": {
+        "triageTag": "routine",
+        "clinicalHeadline": "Urdhwaga Amlapitta in a Pitta-Prakriti patient with Tikshnagni",
+        "provisionalAyushDiagnosis": "Urdhwaga Amlapitta (Hyperchlorhydria / GERD)",
+        "pathogenesis": "Excessive Drava and Amla Guna increase in Pachaka Pitta leading to burning and reflux.",
+        "recommendedPathya": "Cold milk, Munakka (raisins), barley water, Dadima (pomegranate), regular meal schedule.",
+        "recommendedApathya": "Excessive tea/coffee, chili, fermented food, late night meals.",
+        "investigationsSuggested": [
+          "Upper GI Endoscopy if symptoms persist",
+          "USG Abdomen"
+        ]
+      },
+      "allergies": [
+        "Sulfonamides (rash)"
+      ],
+      "allergyStatus": "yes",
+      "editHistory": [],
+      "isDemoData": true
+    },
+    {
+      "id": "case-099",
+      "token": "#121",
+      "patientName": "Rajesh Patel",
+      "age": 29,
+      "gender": "M",
+      "phone": "+91 97234 56789",
+      "abhaId": "33-4455-6677-8899",
+      "opdType": "allopathy",
+      "department": "General Medicine OPD",
+      "status": "completed",
+      "timestamp": "2026-09-11T10:22:05.070Z",
+      "chiefComplaint": "Acute viral syndrome — fever & dry cough × 3 days",
+      "rawPatientStatement": "Mild fever with body aches and dry throat since three days.",
+      "duration": "3 days",
+      "painScore": 3,
+      "symptoms": [
+        "Low grade fever (100.2 F)",
+        "Myalgia and fatigue",
+        "Dry tickly cough"
+      ],
+      "allergies": [
+        "No known drug allergies"
+      ],
+      "allergyStatus": "none",
+      "aiSummary": {
+        "triageTag": "routine",
+        "clinicalHeadline": "Acute Upper Respiratory Viral Illness",
+        "allopathicSummary": {
+          "hpi": "3-day history of low grade fever and myalgia. No dyspnea or hemoptysis.",
+          "redFlags": [],
+          "suggestedActions": [
+            "CBC, Dengue NS1 if fever persists > 5 days",
+            "Supportive hydration and antipyretics"
+          ]
+        }
+      },
+      "editHistory": [],
+      "isDemoData": true
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud-1789124744307-356",
+      "timestamp": "2026-09-11T11:05:44.307Z",
+      "action": "intake_submitted",
+      "actor": "patient_kiosk",
+      "role": "patient_kiosk",
+      "recordId": "case-1789124744304",
+      "result": "#131"
+    },
+    {
+      "id": "aud-1789124725684-508",
+      "timestamp": "2026-09-11T11:05:25.684Z",
+      "action": "intake_submitted",
+      "actor": {
+        "patient": "Priya Sharma",
+        "opd": "ayush"
+      },
+      "role": "kiosk_patient",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1789124689902-446",
+      "timestamp": "2026-09-11T11:04:49.902Z",
+      "action": "ocr_verified",
+      "actor": {
+        "count": 3
+      },
+      "role": "kiosk_patient",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1789124626289-48",
+      "timestamp": "2026-09-11T11:03:46.289Z",
+      "action": "ocr_extracted",
+      "actor": "patient_kiosk",
+      "role": "patient_kiosk",
+      "recordId": null,
+      "result": "3 medicines extracted via Gemini Vision"
+    },
+    {
+      "id": "aud-1789124597901-625",
+      "timestamp": "2026-09-11T11:03:17.901Z",
+      "action": "ocr_extracted",
+      "actor": "patient_kiosk",
+      "role": "patient_kiosk",
+      "recordId": null,
+      "result": "0 medicines extracted via Gemini Vision"
+    },
+    {
+      "id": "aud-1789124459724-245",
+      "timestamp": "2026-09-11T11:00:59.724Z",
+      "action": "consent_accepted",
+      "actor": {
+        "lang": "en"
+      },
+      "role": "kiosk_patient",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1789124440148-907",
+      "timestamp": "2026-09-11T11:00:40.148Z",
+      "action": "consent_declined",
+      "actor": {
+        "lang": "hi"
+      },
+      "role": "kiosk_patient",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1789124423417-88",
+      "timestamp": "2026-09-11T11:00:23.417Z",
+      "action": "intake_submitted",
+      "actor": "patient_kiosk",
+      "role": "patient_kiosk",
+      "recordId": "case-1789124423414",
+      "result": "#130"
+    },
+    {
+      "id": "aud-1789124416034-372",
+      "timestamp": "2026-09-11T11:00:16.034Z",
+      "action": "intake_submitted",
+      "actor": {
+        "patient": "Ramesh Kumar",
+        "opd": "ayush"
+      },
+      "role": "kiosk_patient",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1789124412882-299",
+      "timestamp": "2026-09-11T11:00:12.882Z",
+      "action": "ocr_verified",
+      "actor": {
+        "count": 3
+      },
+      "role": "kiosk_patient",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1789124394334-176",
+      "timestamp": "2026-09-11T10:59:54.334Z",
+      "action": "ocr_extracted",
+      "actor": "patient_kiosk",
+      "role": "patient_kiosk",
+      "recordId": null,
+      "result": "3 medicines extracted via Gemini Vision"
+    },
+    {
+      "id": "aud-1789124315767-982",
+      "timestamp": "2026-09-11T10:58:35.767Z",
+      "action": "consent_accepted",
+      "actor": {
+        "lang": "en"
+      },
+      "role": "kiosk_patient",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1789124056790-669",
+      "timestamp": "2026-09-11T10:54:16.790Z",
+      "action": "ocr_extracted",
+      "actor": "patient_kiosk",
+      "role": "patient_kiosk",
+      "recordId": null,
+      "result": "3 medicines extracted via Gemini Vision"
+    },
+    {
+      "id": "aud-1789123701190-727",
+      "timestamp": "2026-09-11T10:48:21.190Z",
+      "action": "ocr_extracted",
+      "actor": "patient_kiosk",
+      "role": "patient_kiosk",
+      "recordId": null,
+      "result": "3 medicines extracted via Gemini Vision"
+    },
+    {
+      "id": "aud-1789123238538-863",
+      "timestamp": "2026-09-11T10:40:38.538Z",
+      "action": "ocr_extracted",
+      "actor": "patient_kiosk",
+      "role": "patient_kiosk",
+      "recordId": null,
+      "result": "0 medicines extracted"
+    },
+    {
+      "id": "aud-1789123004146-422",
+      "timestamp": "2026-09-11T10:36:44.146Z",
+      "action": "ocr_extracted",
+      "actor": "patient_kiosk",
+      "role": "patient_kiosk",
+      "recordId": null,
+      "result": "0 medicines extracted"
+    },
+    {
+      "id": "aud-1789122912199-493",
+      "timestamp": "2026-09-11T10:35:12.199Z",
+      "action": "intake_submitted",
+      "actor": "patient_kiosk",
+      "role": "patient_kiosk",
+      "recordId": "case-1789122912198",
+      "result": "#129"
+    },
+    {
+      "id": "aud-1789122899092-254",
+      "timestamp": "2026-09-11T10:34:59.092Z",
+      "action": "intake_submitted",
+      "actor": {
+        "patient": "Priya Sharma",
+        "opd": "ayush"
+      },
+      "role": "kiosk_patient",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1789122895265-19",
+      "timestamp": "2026-09-11T10:34:55.265Z",
+      "action": "ocr_verified",
+      "actor": {
+        "count": 4
+      },
+      "role": "kiosk_patient",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1789122764273-337",
+      "timestamp": "2026-09-11T10:32:44.273Z",
+      "action": "consent_accepted",
+      "actor": {
+        "lang": "hi"
+      },
+      "role": "kiosk_patient",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1789122751424-420",
+      "timestamp": "2026-09-11T10:32:31.424Z",
+      "action": "ocr_extracted",
+      "actor": "patient_kiosk",
+      "role": "patient_kiosk",
+      "recordId": null,
+      "result": "0 medicines extracted"
+    },
+    {
+      "id": "aud-1789122747844-907",
+      "timestamp": "2026-09-11T10:32:27.844Z",
+      "action": "intake_submitted",
+      "actor": "patient_kiosk",
+      "role": "patient_kiosk",
+      "recordId": "case-1789122747841",
+      "result": "#128"
+    },
+    {
+      "id": "aud-1789122726634-130",
+      "timestamp": "2026-09-11T10:32:06.634Z",
+      "action": "ocr_verified",
+      "actor": {
+        "count": 3
+      },
+      "role": "kiosk_patient",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1789122707483-823",
+      "timestamp": "2026-09-11T10:31:47.483Z",
+      "action": "intake_submitted",
+      "actor": {
+        "patient": "Priya Sharma",
+        "opd": "ayush"
+      },
+      "role": "kiosk_patient",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1789122702821-28",
+      "timestamp": "2026-09-11T10:31:42.821Z",
+      "action": "ocr_verified",
+      "actor": {
+        "count": 3
+      },
+      "role": "kiosk_patient",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1789122594156-487",
+      "timestamp": "2026-09-11T10:29:54.156Z",
+      "action": "consent_accepted",
+      "actor": {
+        "lang": "en"
+      },
+      "role": "kiosk_patient",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1789122571232-740",
+      "timestamp": "2026-09-11T10:29:31.232Z",
+      "action": "consent_accepted",
+      "actor": {
+        "lang": "en"
+      },
+      "role": "kiosk_patient",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1789122149307-45",
+      "timestamp": "2026-09-11T10:22:29.307Z",
+      "action": "intake_submitted",
+      "actor": "patient_kiosk",
+      "role": "patient_kiosk",
+      "recordId": "case-1789122149305",
+      "result": "#127"
+    },
+    {
+      "id": "aud-1789122149304-601",
+      "timestamp": "2026-09-11T10:22:29.304Z",
+      "action": "red_flag_triggered",
+      "actor": {
+        "patient": "Emergency Patient",
+        "complaint": "Severe shortness of breath",
+        "flags": [
+          {
+            "id": "rf-vitals-1789122137979",
+            "ruleId": "rf_critical_vitals",
+            "name": "Hypertensive Crisis Alert",
+            "category": "vitals",
+            "severity": "urgent",
+            "symptomSnippet": "Severe BP recorded: 195/125 mmHg",
+            "staffMessage": "Emergency vital signs captured at kiosk triage. Immediate doctor assessment required.",
+            "timestamp": "2026-09-11T10:22:17.979Z",
+            "acknowledged": false,
+            "acknowledgedBy": null,
+            "acknowledgedAt": null,
+            "dismissed": false
+          }
+        ]
+      },
+      "role": "patient_kiosk",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1789122137976-883",
+      "timestamp": "2026-09-11T10:22:17.976Z",
+      "action": "encounter_status_updated",
+      "actor": "Dr. Anjali Rao (BAMS, MD)",
+      "role": "physician",
+      "recordId": "case-1789122137964",
+      "result": "waiting -> completed"
+    },
+    {
+      "id": "aud-1789122137965-28",
+      "timestamp": "2026-09-11T10:22:17.965Z",
+      "action": "intake_submitted",
+      "actor": "patient_kiosk",
+      "role": "patient_kiosk",
+      "recordId": "case-1789122137964",
+      "result": "#126"
+    },
+    {
+      "id": "aud-1789122125072-694",
+      "timestamp": "2026-09-11T10:22:05.072Z",
+      "action": "demo_data_reset",
+      "actor": "admin",
+      "role": "admin",
+      "recordId": null,
+      "result": "success"
+    },
+    {
+      "id": "aud-1",
+      "timestamp": "2026-09-11T08:21:41.700Z",
+      "action": "intake_submitted",
+      "actor": "patient_kiosk",
+      "role": "patient_kiosk",
+      "recordId": "case-099",
+      "result": "success"
+    },
+    {
+      "id": "aud-2",
+      "timestamp": "2026-09-11T09:21:41.700Z",
+      "action": "consent_accepted",
+      "actor": "patient_kiosk",
+      "role": "patient_kiosk",
+      "recordId": "case-101",
+      "result": "agreed"
+    },
+    {
+      "id": "aud-3",
+      "timestamp": "2026-09-11T09:53:21.700Z",
+      "action": "red_flag_triggered",
+      "actor": "system_rule_engine",
+      "role": "system",
+      "recordId": "case-102",
+      "result": "rf_cardiac_angina"
+    }
+  ]
+}
