@@ -1,4 +1,4 @@
-# 🏥 ArogyaKiosk (आरोग्य कियोस्क)
+# 🏥 MediKiosk(चिकित्सा कियोस्क)
 ### Smart OPD Patient Case-Taking & AYUSH Clinical Documentation System
 > **Smart India Hackathon (SIH) · Problem Statement ID: 26047**  
 > **Ministry of Ayush · Government of India**
